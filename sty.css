@@ -776,6 +776,7 @@ footer {
     color: white;
     padding-bottom: 15px;
     font-size: 12px;
+    margin-bottom: 500px;
   }
 
   .typing {
@@ -836,7 +837,7 @@ footer {
     font-family: "Sen", sans-serif;
     font-size: x-large;
     color: #bdd8f1;
-    margin-top: 270px;
+    margin-top: 250px;
     margin-bottom: 50px;
     padding: 50px;
   }
