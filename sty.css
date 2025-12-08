@@ -266,11 +266,14 @@ main {
   font-weight: 600;
 }
 
-.download{
+.info .download{
   font-family: "Inter", sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
+  text-decoration: none;
+  color:#636ccb;
+  font-weight: 800;
   background: linear-gradient(180deg, #bdd8f1, #6d7d8b);
   box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.4);
   width: auto;
@@ -949,7 +952,7 @@ footer {
     display: none;
   }
 
-.download{
+.info .download{
   display: flex;
   align-items: center;
   justify-content: center;
