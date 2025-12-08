@@ -104,8 +104,7 @@ main {
   font-size: x-large;
   color: #bdd8f1;
   margin-top: 270px;
-  margin-bottom: 50pxpx;
-  padding: 50px;
+  margin-bottom: 50px;
 }
 
 .card {
@@ -135,7 +134,7 @@ main {
 }
 
 .Card-Skill img {
-  width: 55px;
+  width: 50px;
   height: auto;
 }
 
@@ -453,6 +452,30 @@ footer {
     transform: scale(1.1);
   }
 
+    .typing {
+    width: 0ch;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #80b3ff;
+    border-right: 3px solid #3667a6;
+    animation: typing 4s steps(30) infinite, blink 0.6s step-end infinite;
+  }
+
+  @keyframes typing {
+    from {
+      width: 0ch;
+    }
+    to {
+      width: 12ch;
+    }
+  }
+
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+
   .skill h2 {
     padding: 10px;
     font-size: larger;
@@ -480,8 +503,8 @@ footer {
   }
 
   .Card-Skill img {
-    width: 150px;
-    height: 90px;
+    width: 55px;
+    height: auto;
   }
 
   .Card-Skill {
@@ -502,7 +525,7 @@ footer {
   }
 
   .Card-Skill img {
-    width: 55px;
+    width: 55px;    
     height: auto;
   }
 
@@ -514,30 +537,6 @@ footer {
     -webkit-background-clip: text;
     color: transparent;
     -webkit-text-fill-color: transparent;
-  }
-
-  .typing {
-    width: 0ch;
-    overflow: hidden;
-    white-space: nowrap;
-    color: #80b3ff;
-    border-right: 3px solid #3667a6;
-    animation: typing 4s steps(30) infinite, blink 0.6s step-end infinite;
-  }
-
-  @keyframes typing {
-    from {
-      width: 0ch;
-    }
-    to {
-      width: 12ch;
-    }
-  }
-
-  @keyframes blink {
-    50% {
-      border-color: transparent;
-    }
   }
 
   .HeadPJ {
@@ -724,6 +723,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     height: 62px;
+    width:auto;
     flex-direction: column;
     background-color: #82a6cb;
     border-bottom: 3px solid #b4d4ff;
@@ -735,14 +735,14 @@ footer {
     text-decoration: none;
     color: #faf7f0;
     font-family: "Sen", sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     font-size: larger;
   }
 
   .navbar .item a {
     text-decoration: white;
     color: antiquewhite;
-    margin: 15px;
+    margin: 7px;
     font-family: "Inter", sans-serif;
   }
 
@@ -759,7 +759,7 @@ footer {
   }
 
   .about .up {
-    padding-top: 125px;
+    padding-top: 115px;
   }
 
   .ME {
@@ -819,22 +819,17 @@ footer {
     font-size: x-large;
     color: #bdd8f1;
     margin-top: 250px;
-    margin-bottom: 50px;
+    margin-bottom: 7px;
     padding: 50px;
   }
 
   .card {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    row-gap: 70px;
+    row-gap: 50px;
     justify-items: center;
     padding: 0 20px;
     padding-bottom: 50px;
-  }
-
-  .Card-Skill img {
-    width: 150px;
-    height: 90px;
   }
 
   .Card-Skill {
@@ -892,8 +887,9 @@ footer {
 
   .kiri img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    width: auto;
+    max-width: 350px;
+   margin: auto;
   }
 
   .Kanan {
